@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vibur&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- nav -->
+    <nav>
+      <img src="public/images/our-logo.png" alt="">
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#wish" >Wish</a></li>
+          <li><a href="#hobby" >Hobby</a></li>
+          <li><a href="#contact" >Contact me</a></li>
+          <li><a href="#footer" >Join me</a></li>
+        </ul>
+        <img id="menu-btn" src="public/images/menu.png" alt="">
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <section id="hero">
+      <div class="container">
+        <div class="left">
+          <h1 class="title">Hello! </h1> 
+          <h6 class="sub-title">we are 
+          Kim Ja-kyung and Cho Myeong-deok.</h6> 
+          <h6 class="title sub-title">Nice to meet you!</h6> 
+          
+        </>
+        <p class="text">
+          I have a nephew. His name is Kim Si-woo.
+          <br> He also has a website.
+        </p>
+        <p class="text">
+        If you would like to see my nephew's homepage, click the link below.
+        </p>
+        <a class="nephew-site" href="https://kimsiu1009.github.io/mysite" target="-blank">My nephew's site</a>
+        </div>
+        <div class="right">
+          <img class="picture-dad"  src="public/images/our's logo.png"  alt="">
+        </div>
+      </div>
+
+    <!-- wish -->
+
+    <section id="wish">
+      <div class="greeting">
+        <h1>Merry Chistmas & Happy New Year</h1>
+      </div>
+    <div class="container wish-container">
+      <div class="wish-container-img">
+        <img src="public/images/christmas-santa.jpg" alt="">
+        <div class="card">
+          <h3>To Santa</h3>
+          <p>
+            hello? Santa. I am soon going to a drum competition with my beloved grandson. Please support them both so they can win.
+            </p>
+        </div>
+      </div>
+      <div class="wish-container-img">
+        <img src="public/images/christmas-tree.jpg" alt="">
+        <div class="card">
+          <h3>To Santa</h3>
+          <p>Santa Claus, I have been working and living hard until now. I hope many good things happen at work next year.</p>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Hobby -->
+
+    <section id="hobby">
+      <div class="hobby-title">
+        <h1 class="title">
+          Hobby & Happy
+        </h1>
+      </div>
+      <div class="container hobby-container">
+        <div class="hobby-container-box">
+          <div>
+            <img src="public/images/Hobby-drum.png" alt="">
+          </div>
+          <div class="hobby-content">
+            <h1 class="sub-title">
+              My hobby is playing the drums.
+            </h1>
+            <p class="text">
+              I really like playing the drums.
+              I play drums with my grandson, who is a good drum player. And I can say that my drum rival is my grandson.
+            </p>
+            <p class="text">  
+            I hope to have fun playing drums with my grandchildren for many years to come.
+            </p>
+          </div>
+        </div>
+        <div class="hobby-container-box aunt">
+          <div class="hobby-content">
+            <h1 class="sub-title">
+              Do you want to use the phone together?
+            </h1>
+            <p class="text">
+              After working hard at work, I enjoy and relax at home by looking at my phone in a comfortable position.I enjoy looking at my phone, but sometimes I also enjoy watching movies with my nephew on my tablet.
+            </p>
+            <p class="text"> 
+            Also, spending time with Sherlock is one of the ways I enjoy relaxing. Sherlock is the name of my cute dog.
+            </p>
+          </div>
+          <div>
+            <img src="public/images/Hobby-phone.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Contact -->	
+  <section id="contact">
+    <div class="container">
+      <h2 class="title"> contact us</h2>
+      <p class="text">
+        If you are interested in becoming have any questions about me, please contact me using the form below and I will give you a sincere answer.
+      </p>
+      <div class="contact-wrapper">
+        <form action="" class="contact-form">
+          <div class="wrapper-flex">
+            <div class="input-wrapper">
+              <label for="name">Name</label>
+              <input type="text" id="name" required name="name"class="input-field" placeholder="Enter your name">
+            </div>
+            <div class="input-wrapper">
+              <label for="name">email</label>
+              <input type="text" id="email" required name="email"class="input-field" placeholder="Enter your email">
+            </div>
+          </div>
+          <label for="message">Message</label>
+          <textarea name="message" id="message" class="input-field"></textarea>
+          <button class="btn btn-primary">
+            <span>Send message</span>
+            <ion-icon name="paper-plane-outline"></ion-icon>
+          </button>
+        </form>
+        <div>
+          <img src="public/images/people-collaborating-online.png" alt="">
+        </div>
+      </div>
+    </div>
+    </section>	
+
+    <script src="script.js"></script>
+</body>
+</html>
